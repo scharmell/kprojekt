@@ -13,6 +13,7 @@ def get_mask_card_number(card_number: Union[str]) -> Union[str]:
     else:
         return "Вы ввели некорректные данные"
 
+
 def get_mask_account(account_number: Union[str]) -> Union[str]:
     """Возвращаем замаскированный номер счета"""
     len_acc_num = 20
